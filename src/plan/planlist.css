@@ -6,6 +6,7 @@
     font-family: century-gothic, sans-serif;
     padding: 0 10%;
     user-select: none;
+    background-color: #edf3f6;
 }
 
 .plan-card {
@@ -36,6 +37,7 @@
     background-color: #834cff;
     color: white;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .total {

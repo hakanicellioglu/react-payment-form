@@ -1,5 +1,5 @@
 .payment {
-    width: 30%;
+    width: 50%;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -101,4 +101,20 @@ label {
     padding: 20px;
     margin-right: 5px;
     border-radius: 10px;
+}
+
+.selected {
+    background-color: #f3edff;
+    border: 1px solid #7f47ff;
+}
+
+
+.date-cvc {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.date-cvc input {
+    width: 100%;
+    margin: 0 5px;
 }
