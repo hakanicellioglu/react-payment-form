@@ -6,8 +6,6 @@ React Payment Form, kullanıcıların ödeme bilgilerini güvenli bir şekilde g
 
 - Basit ve kullanıcı dostu ödeme formu
 - Temiz ve modern tasarım
-- Esnek yapılandırma seçenekleri
-- Kullanıcı doğrulama ve hata yönetimi
 
 ## Tasarım
 
