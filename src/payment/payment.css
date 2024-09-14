@@ -1,12 +1,12 @@
 .payment {
     width: 50%;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-family: century-gothic, sans-serif;
     padding: 0 10%;
     user-select: none;
+    font-size: 16px;
 }
 
 .header {
@@ -23,14 +23,14 @@
 
 .title {
     margin: 0;
-    font-size: 200%;
+    font-size: 2em;
 }
 
 .description {
     color: #617183;
     margin: 10px 0;
+    font-size: 14px;
 }
-
 
 .input-group {
     display: flex;
@@ -44,6 +44,7 @@ label {
     margin-bottom: 10px;
     color: #888888;
     font-weight: 600;
+    font-size: 14px;
 }
 
 .input-group input {
@@ -51,6 +52,7 @@ label {
     border: 1px solid silver;
     border-radius: 4px;
     font-family: century-gothic, sans-serif;
+    font-size: 16px;
 }
 
 .payment-detail {
@@ -88,6 +90,7 @@ label {
     padding: 20px;
     margin-right: 5px;
     border-radius: 10px;
+    font-size: 16px;
 }
 
 .subscribe {
@@ -101,13 +104,13 @@ label {
     padding: 20px;
     margin-right: 5px;
     border-radius: 10px;
+    font-size: 16px;
 }
 
 .selected {
     background-color: #f3edff;
     border: 1px solid #7f47ff;
 }
-
 
 .date-cvc {
     display: flex;
@@ -117,4 +120,41 @@ label {
 .date-cvc input {
     width: 100%;
     margin: 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .payment {
+        width: 90%;
+        padding: 0 5%;
+        height: auto;
+        font-size: 14px;
+    }
+
+    .header .title {
+        font-size: 1.5em;
+    }
+
+    .input-group label {
+        font-size: 12px;
+    }
+
+    .input-group input {
+        font-size: 14px;
+    }
+
+    .payment-detail .payment-title {
+        font-size: 14px;
+    }
+
+    .button-group button {
+        font-size: 14px;
+    }
+
+    .date-cvc {
+        flex-direction: column;
+    }
+
+    .date-cvc input {
+        margin: 5px 0;
+    }
 }
